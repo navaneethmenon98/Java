@@ -39,7 +39,7 @@ public class LuhnAlgo
 			N=N/10;
 			System.out.println(s);
 		}
-		if(s%10==0)
+		if(s%10==0 && oddcheck==16)
 			{System.out.println("VALID");}
 		else
 			{System.out.println("INVALID");}
